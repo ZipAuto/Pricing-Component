@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sistema de Automatización Empresarial</title>
+
+<style>
+:root{
+  --bg:#0b0f14;
+  --card:#141a22;
+  --gold:#d4af37;
+  --text:#ffffff;
+  --soft:#a7b0be;
+  --line:#2a2f3a;
+}
+
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:var(--bg);
+  color:var(--text);
+}
+
+/* HERO */
+.hero{
+  text-align:center;
+  padding:80px 20px 40px;
+  background: radial-gradient(circle at top, #1a2230, #0b0f14);
+}
+
+.hero h1{
+  font-size:38px;
+  margin:0;
+  color:var(--gold);
+}
+
+.hero p{
+  color:var(--soft);
+  font-size:14px;
+  margin-top:10px;
+}
+
+/* CONTAINER */
+.container{
+  max-width:1000px;
+  margin:auto;
+  padding:20px;
+}
+
+/* CARD */
+.card{
+  background:var(--card);
+  border:1px solid var(--line);
+  border-radius:16px;
+  padding:22px;
+  margin:18px 0;
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:scale(1.01);
+  border-color:var(--gold);
+}
+
+/* BADGE */
+.badge{
+  font-size:11px;
+  padding:5px 12px;
+  border-radius:20px;
+  display:inline-block;
+  margin-bottom:10px;
+  background:#1f2633;
+  color:var(--soft);
+}
+
+/* TITLES */
+h2{
+  margin:5px 0;
+}
+
+.price{
+  font-size:26px;
+  color:var(--gold);
+  margin:10px 0;
+}
+
+/* LIST */
+ul{
+  padding-left:18px;
+  color:var(--soft);
+  font-size:14px;
+}
+
+li{ margin-bottom:6px; }
+
+/* FLOW ARROW */
+.arrow{
+  text-align:center;
+  color:#555;
+  font-size:20px;
+  margin:10px 0;
+}
+
+/* CTA */
+.cta{
+  text-align:center;
+  padding:50px 20px;
+}
+
+.button{
+  background:var(--gold);
+  color:#000;
+  padding:14px 28px;
+  border-radius:8px;
+  text-decoration:none;
+  font-weight:bold;
+  display:inline-block;
+  margin-top:10px;
+}
+
+.small{
+  font-size:12px;
+  color:#888;
+  margin-top:10px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <h1>Sistema de Negocio Automatizado</h1>
+  <p>Convierte tu negocio en una máquina que vende, responde y crece 24/7</p>
+</div>
+
+<div class="container">
+
+<!-- PACK 1 -->
+<div class="card">
+  <span class="badge">INICIO</span>
+  <h2>Presencia Digital</h2>
+  <div class="price">$40/mes</div>
+  <p style="color:#aaa;">Tu negocio visible en internet</p>
+  <ul>
+    <li>Sitio web profesional</li>
+    <li>Integración con WhatsApp</li>
+    <li>Hosting + mantenimiento</li>
+    <li>SEO básico</li>
+  </ul>
+</div>
+
+<div class="arrow">↓ Escala</div>
+
+<!-- PACK 2 -->
+<div class="card">
+  <span class="badge">MÁS ELEGIDO</span>
+  <h2>Automatización Inicial</h2>
+  <div class="price">$120/mes</div>
+  <ul>
+    <li>Todo lo del plan anterior</li>
+    <li>1 automatización personalizada</li>
+    <li>Integración con CRM / Sheets</li>
+    <li>Configuración completa</li>
+  </ul>
+</div>
+
+<div class="arrow">↓ Escala</div>
+
+<!-- PACK 3 -->
+<div class="card" style="border:1px solid var(--gold);">
+  <span class="badge">MEJOR VALOR</span>
+  <h2>Sistema de Crecimiento</h2>
+  <div class="price">$250/mes</div>
+  <ul>
+    <li>Estrategia de marketing mensual</li>
+    <li>Publicidad en Google / Meta</li>
+    <li>Reportes y analítica</li>
+    <li>Optimización continua</li>
+  </ul>
+</div>
+
+<div class="arrow">↓ Escala</div>
+
+<!-- PACK 4 -->
+<div class="card">
+  <span class="badge">IA</span>
+  <h2>Sistema de IA Empresarial</h2>
+  <div class="price">$480/mes</div>
+  <ul>
+    <li>Asistente IA entrenado en tu negocio</li>
+    <li>Automatización por WhatsApp</li>
+    <li>Respuestas automáticas de clientes</li>
+    <li>Optimización mensual de IA</li>
+  </ul>
+</div>
+
+<div class="arrow">↓ Escala</div>
+
+<!-- PACK 5 -->
+<div class="card">
+  <span class="badge">EMPRESARIAL</span>
+  <h2>Sistema Personalizado Completo</h2>
+  <div class="price">$900+/mes</div>
+  <ul>
+    <li>Automatizaciones ilimitadas</li>
+    <li>IA avanzada multicanal</li>
+    <li>Soporte dedicado</li>
+    <li>Arquitectura completa del negocio</li>
+  </ul>
+</div>
+
+<!-- CTA -->
+<div class="cta">
+  <h2>¿Listo para automatizar tu negocio?</h2>
+  <p style="color:#aaa;">Te ayudo a elegir el sistema perfecto según tu etapa</p>
+
+  <a class="button" href="https://wa.me/3238119340">
+    Hablar por WhatsApp
+  </a>
+
+  <div class="small">
+    Responde: “QUIERO AUTOMATIZAR”
+  </div>
+</div>
+
+</div>
+
+</body>
+</html>
